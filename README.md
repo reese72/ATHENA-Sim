@@ -1,0 +1,7 @@
+# RocketSim-3D
+Much like the original RocketSim, this is a rocket trajectory simulation written in python. However, this simulates the tradjectory of the rocket in 3d space with a simulated thrust-vectored motor and PID control system
+
+# What is This?
+Here's a brief explanation as to what this simulation is, what it does, what it can do, and what it can't do. As mentioned in the repo's 
+description this is a model rocket simulation that is written in python. Just like the original RocketSim, this code takes custom inputs for almost every parameter of the rocket but is not visual like 
+OpenRocket. Fortunately, that's where the similarity to the original ends, this code is not made as a python version of OpenRocket. This serves a completely different purpose, simulating rockets controlled via thrust-vectoring. Using this software, you can define your rocket's general design and control parameters to simulate it's response to various flight scenarios. From my testing, it seems like v1.3 and prior are quite inaccurate due to an oversight on my part. I forgot to account for processing delay and intervals in the simulation. I have v1.4 ready and it will be up soon. The changes seem to allow the sim to get in the right ballpark of the control behavior. There are still a few _possibly_ erroneous assumptions but I have plans in place to implement the changes necessary to mitigate these issue and improve the overall accuracy of the outputs.
